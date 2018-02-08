@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="myHeader">
+<mat-toolbar>
+  <div class="headerToolBar">
+  <img [src]="userInfo.userUrlAvatar">
+  <span>Hello {{userInfo.fullName}} </span>
+  <button mat-raised-button color="primary"><a>My Acount</a></button>
+  <button mat-raised-button color="primary"><a>Products</a></button>
+  <button mat-raised-button color="primary" *ngIf="userInfo.fullName != 'guest'"><a>My Cart</a></button>
+  
+</div>
+</mat-toolbar>
+</div>
+<!--   
+<div style="text-align:center">
+  <h1>
+    My Generic Store
+  </h1>
+  <hr>
+  </div> -->

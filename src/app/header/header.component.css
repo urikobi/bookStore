@@ -1,0 +1,33 @@
+img{
+    height: 50px;
+    float: right;
+    display: block;
+    margin:10px;
+}
+
+span{
+    float: right;
+    display: block;
+    margin:20px;
+}
+
+button{
+    float: left;
+    display: block;
+    border-radius: 5px;
+    background-color: lightblue;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+
+.headerToolBar{
+    float: right;
+    display: block;
+    flex: 1 1 auto;
+}
+
+.myHeader{
+    margin-bottom: 5%;
+}

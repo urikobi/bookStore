@@ -1,0 +1,15 @@
+<div *ngIf="myStore" style="text-align:center">
+<h1>
+  <!-- TODO: Do myStore Generic -->
+  Welcom To {{myStore?.storeName}} store
+</h1>
+<img [src] = "myStore?.mainImage "/>
+
+<app-country-info [country]="myStore?.address"></app-country-info>
+
+<div>{{myStore?.address?.localInfo()}}</div>
+</div>
+
+<app-register-form></app-register-form>
+<br><br><br>
+<app-product></app-product>

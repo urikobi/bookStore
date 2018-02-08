@@ -1,0 +1,9 @@
+<img [src]="bookPreview.volumeInfo?.imageLinks?.smallThumbnail">
+<h2>{{bookPreview.volumeInfo?.title}}</h2>
+<h3>{{bookSubTitle}}</h3>
+<h4>{{bookAuthor}}</h4>
+<div><p>{{bookPrice}}</p>
+<p>{{currencySymbol}}</p>
+</div>
+<button mat-raised-button color="success" (click)="viewDetails()">View Details</button>
+ 
